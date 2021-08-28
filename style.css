@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
 body{
     background-color: black;
     /* text-align: center; */
@@ -215,6 +217,7 @@ section img{
 }
  #place{
     color: pink;
+    font-family: "Ubuntu", sans-serif;
 }
 footer{
     margin-top: 60px;
