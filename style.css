@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body{
+    background-color: black;
+    /* text-align: center; */
+    color: white;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+nav {
+    text-align: center;
+}
+
+#dropdown{
+display:none;
+width: 100px;
+text-align: center;
+position: relative;
+left:0px;
+}
+
+#dropdown a{
+    position: relative;
+    display: block;
+    text-decoration: none;
+}
+
+/* nav:hover #dropdown {
+    position: relative;
+    display:block;
+
+} */
+
+header{
+margin-bottom: 70px;
+}
+
+header p{
+    font-size: 15px;
+    line-height: 30px;
+}
+
+#profile img{
+    border-radius: 50%;
+    height: 400px;
+    width:400px;
+}
+#profile{
+    text-align: center;
+}
+
+header h1{
+    text-align: center;
+    color: pink;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    text-align: center;
+    color: pink;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-size: 20px;
+}
+
+#contact img{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+#contact{
+    text-align: center;
+}
+
+#about{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 100px;
+    gap: 20px 20px;
+    margin-left: auto ;
+    margin-right: auto;
+}
+ 
+/* #item1{
+    width: 50%;
+}
+
+#item2{
+    width: 50%;
+} */
+
+#experiences{
+    font-size: 40px;
+    color:pink ;
+    font-family: 'Merriweather', serif;
+    
+}
+
+#sample{
+    font-family: 'Roboto', sans-serif;
+}
+
+#text1{
+    color:pink;
+}
+#chat img{
+    margin-right: 5px;
+}
+
+#one{
+    color:white;
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+#design{
+    border-top:  2px solid pink;
+    padding-top: 30px;
+    font-size: 40px;
+    text-align: center;
+    color: pink;
+    font-family: 'Merriweather', serif;    
+}
+
+section img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#portfolio{
+    text-align: center;
+    margin-bottom: 60px;
+    color: pink;
+}
+
+#projects{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#view img{
+    height: 60px;
+    width: 40px;
+}
+#view{
+    text-align: center;
+}
+
+
+
+#learn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: pink;
+    font-family: "Roboto", "Arial","sans-serif";
+}
+#learn-container{
+    border: 1px solid pink;
+    
+    text-align: center;
+    margin-top: 50px;
+    width: 250px;
+    margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+    
+}
+/* section {
+    text-align: center;
+} */
+
+#container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 30px 30px;
+}
+
+#container img{
+    height: 100px;
+    width: 100px;
+}
+#content1{
+    color: pink;
+}
+
+
+#location{
+    line-height: 25px;
+    border-bottom: 10px solid white;
+    width:300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 20px;
+    
+}
+#phone img{
+
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+#call img{
+    height: 24px;
+    width: 24px;
+}
+ #place{
+    color: pink;
+}
+footer{
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+
+
+@media only screen  and (max-width: 700px) {
+    #about{
+        display: grid;
+        grid-template-columns: 100%;
+        margin-bottom: 100px;
+        gap: 20px 20px;
+        margin-left: auto ;
+        margin-right: auto;
+    }
+
+    #container{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 30px 30px;
+    }
+}
